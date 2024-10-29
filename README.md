@@ -51,9 +51,7 @@ Possible Research Questions:
 
 Possible Methods from class
 
-Functional Data Analysis (FDA): Model daily bidding profiles as functional curves, applying techniques like Functional Principal Component 
-
-Analysis (FPCA) to capture dominant patterns and cycles.
+Functional Data Analysis (FDA): Model daily bidding profiles as functional curves, applying techniques like Functional Principal Component Analysis (FPCA) to capture dominant patterns and cycles.
 
 Functional ANOVA (FANOVA): Test for significant differences in functional profiles across days, zones, or other factors.
 
