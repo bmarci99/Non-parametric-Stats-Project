@@ -4,7 +4,7 @@ This dataset provides **hourly bid data** from the Italian electricity market, r
 
 ## Data Overview
 
-Each XML file contains hourly records for a single day, represented by the following fields:
+Each orginal XML file contains hourly records for a single day, represented by the following fields:
 
 - **Day**: Date in `YYYYMMDD` format.
 - **Hour**: The hour associated with each bid `(0–23)`.
