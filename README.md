@@ -11,7 +11,7 @@ Each orginal XML file contains hourly records for a single day, represented by t
 - **Quantity**: Bid quantity in `MWh`.
 - **Price**: The bid price in `Euros` per `MWh`.
 - **Market (Mercato)**: Constant field equal to `MGP` (Mercato del Giorno Prima).
-- **Market Zones (ZonaMercato)**: The full list of market zones participating in the auction.
+- **Market Zones (ZonaMercato)**: The full list of market zones participating in the auction. Only full markets are retained in the final dataset.
 - **Bid Type (Tipo)**: Indicates the type of bid, either `OFF` (offer) or `BID` (demand). Only demand bids are retained in the final dataset.
 
 Each instance in the dataset corresponds to an individual bid, not a daily or hourly aggregate. This level of granularity allows for a detailed examination of bidding patterns and pricing.
