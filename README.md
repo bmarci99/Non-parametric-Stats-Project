@@ -18,7 +18,7 @@ The dataset consists of 5,110 patient records, each containing 12 attributes:
 
 ### **Lifestyle Factors:**
 - **Smoking Status**: Formerly smoked, never smoked, smokes, or unknown
-- **Work Type**: Children, Govt_job, Never_worked, Private, Self-employed
+- **Work Type**: , Never_worked, Private, Self-employed, etc.
 
 ### **Medical History:**
 - **Hypertension**: Binary (1 = Yes, 0 = No)
@@ -35,7 +35,7 @@ The dataset consists of 5,110 patient records, each containing 12 attributes:
 - BMI distribution varies for stroke and non-stroke patients.
 
 ## Statistical Tests
-- **Bootstrap Confidence Interval** for glucose levels.
+- **Bootstrap Confidence Interval** for the numerical values.
 - **Wilcoxon Rank-Sum Test & KS Test** for BMI, glucose level, and age.
 - **Kruskal-Wallis Test** for hypertension, heart disease, and work type.
 
@@ -54,9 +54,7 @@ Methods used:
 - **SMOTE & ADASYN** for data balancing.
 
 ## Experimental Results
-- **Logistic Regression with SMOTE**: Balanced accuracy of 0.74, AUC 0.8207.
-- **Logistic Regression with ADASYN**: Balanced accuracy of 0.68, AUC 0.8149.
-- **Community-based models improved performance**, especially for high-risk groups.
+- **Community-based models improved the baseline performance**
 
 ## References
 - Harvard Health Publishing. *What is a silent stroke?* Harvard Medical School, 2023.
